@@ -1,0 +1,145 @@
+body{
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  text-align: center;
+  align-content: center;
+  background-color: lightblue;
+}
+/* css for heading line */
+#header{
+  background-color: gray;
+  margin-top: 0;
+  padding-top: 10px;
+  height: 80px;
+}
+h1{
+  color: white;
+
+}
+/* search bar */
+#search{
+ width:100%;
+  height: 60px;
+  padding-top: 10px ;
+
+}
+/* styling for favourite button */
+#favourite{
+  margin-left:-90%;
+  margin-top: 10px;
+}
+/* styling for favourite list item */
+#favourites-list{
+  height: 40px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #800000;
+  color: black;
+  border-width: 2px;
+  border-color: #660000;
+}
+#search_dish{
+  width: 50%;
+  height: 35px;
+  border-radius: 10px;
+}
+/* styling for list of dishe item */
+
+#dish-card{
+  /* border: #000000 solid; */
+  font-weight: bold;
+  width: 40%;
+  height: 145px;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  margin-left: 25%;
+  margin-top: 20px;
+  border-radius: 10px;
+  padding: 20px;
+  padding-top: 20px;
+}
+/* styling for list of dish item name */
+
+#dish-name{
+  margin-left: 50px;
+  width: 80%;
+  height: 40px;
+  margin-top: -25px;
+  text-align: left;
+}
+/* styling for list of dish images */
+
+#dish-image{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+#favourite-button{
+  margin-top: -5px;
+}
+
+#dish-abt{
+  width: 85%;
+  margin-left: 10%;
+  text-align: justify;
+  margin-top: 20px;
+}
+
+#back-icon{
+  width: 40px;
+  margin-left: -350px;
+}
+
+#containerDishOnly{
+  width: 100%;
+  height: 100%;
+  /* background-color: lightgrey; */
+  margin-top: 10px;
+}
+
+#dishOnlyImage{
+  width: 300px;
+  align-content: center;
+  
+}
+
+#dishHeadOnly{
+  text-align: left;
+  margin-left: 20%;
+  font-size: 40px;
+}
+
+#instructions{
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: justify;
+}
+
+.button{
+  /* height: 30px; */
+  min-height: 40px;
+  width: 100px;
+  background-color: rgb(0, 255, 191);
+  color: #000000;
+  font-weight: bold;
+  border-radius: 8px;
+  border-width: 0ch;
+  padding: 3px;
+}
+.home{
+  margin-top:10px;
+}
+
+.button:hover{
+  border-width: 2px;
+  background-color: #004d0a;
+  color: azure;
+  border-color: #000000;
+}
+
+#view-recipe{
+  margin-top: 5px;
+}
